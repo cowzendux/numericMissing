@@ -10,6 +10,6 @@ This function allows you to define the missing values for all of your numeric va
 * "missingRecode" is a number that indicates the value that existing missing values should be set to
 
 ## Example
-**numericMissing("-9, -99, -999", "-999")**
+**numericMissing(definition = "-9, -99, -999", missingRecode = "-999")**
 * This would indicate that at values of -9, -99, and -999 indicate missing values for all of the numeric variables in your data set.
 * Any cases that have existing missing values will be changed to -999.
